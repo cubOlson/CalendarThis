@@ -11,3 +11,5 @@ INSERT INTO appointments (name, start_datetime, end_datetime, description, priva
 VALUES
 ('My appointment', '2021-04-13 14:00:00', '2021-04-13 15:00:00',
  'An appointment for me', false);
+
+-- ALTER TABLE appointments Owner to calendar_this
