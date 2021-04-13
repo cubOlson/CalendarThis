@@ -8,6 +8,25 @@
 </head>
 <body>
     <h1>Calendar Working</h1>
+    <form method="post" action="/">
+        <div>
+            <label>Private</label>
+            {{form.private()}}
+        </div>
+        <label>Name</label>
+        <p>{{form.name()}}</p>
+        <label>Start Date</label>
+        <p>{{form.start_date()}}</p>
+        <label>Start Time</label>
+        <p>{{form.start_time()}}</p>
+        <label>End Date</label>
+        <p>{{form.end_date()}}</p>
+        <label>End Time</label>
+        <p>{{form.end_time()}}</p>
+        <label>Description</label>
+        <p>{{form.description()}}</p>
+        <p>{{form.submit()}}</p>
+    </form>
     <table>
         <thead>
             <tr>
